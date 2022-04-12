@@ -22,6 +22,9 @@ jobs:
           dotnet-version: '6.0.x'
           include-prerelease: true
 
+      - name: Show current subdirectory
+        run: pwd
+
       - name: Change current subdirectory
         run: cd Overtime.WebApp
 
